@@ -17,4 +17,6 @@ else:
 oracion[lugar]= "-" + oracion[lugar].capitalize() + "."
 texto = "\n".join(oracion)
 return texto
+print(modificar_texto_original(texto_original))
+
 
