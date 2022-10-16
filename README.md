@@ -24,38 +24,3 @@ return texto
 
 print(modificar_texto_original(texto_original))
 
-# ejercicio 3
-#consiste en crear una función denominada "modificar" que a partir de una lista de números realice ciertas tareas sin modificar la original
-
-def modificar(lista):
-print("en esta lista hemos borrado los elementos duplicados:")
-duplicados_borrados= list(dict.fromkeys(lista))
-print(duplicados_borrados)
-
-print("esta lista está ordenada de mayor a menor:")
-orden_de_mayor_a_menor= sorted(duplicados_borrados, reverse=True)
-print(orden_de_mayor_a_menor)
-
-print("en esta lista hemos borrado los números impares:")
-impares_borrados= []
-for num in orden_de_mayor_a_menor:
-if num % 2 == 0:
-impares_borrados.append(num)
-print(impares_borrados)
-
-print("en esta lista realizaremos una suma de todos los números que quedan:")
-
-#usamos la función "sum(list)" propuesta en el enunciado
-
-suma_del_resto= sum(impares_borrados)
-print(suma_del_resto)
-
-print("aquí añadimos como primer elemento de la lista, la suma realizada:")
-impares_borrados.insert(0, suma_del_resto)
-return impares_borrados
-
-lista_1= [1, 3, 5, 7, 2, 6, 9, 4, 6, 8, 5, 2, 2, 3]
-nueva_lista= modificar(lista1)
-print(nueva_lista[0] == sum(nueva_lista[1:]))
-True
-print(lista1)
