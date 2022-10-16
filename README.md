@@ -40,5 +40,9 @@ impares_borrados.append(num)
 print(impares_borrados)
 
 print("en esta lista realizaremos una suma de todos los números que quedan:")
-#usamos la función "sum(list) propuesta en el enunciado"
-suma_del_resto= sum
+#usamos la función "sum(list)" propuesta en el enunciado
+suma_del_resto= sum(impares_borrados)
+print(suma_del_resto)
+
+print("aquí añadimos como primer elemento de la lista, la suma realizada:")
+impares_borrados.insert(0, suma_del_resto)
