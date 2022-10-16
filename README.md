@@ -3,6 +3,8 @@
 https://github.com/rociogsierra/PYTHON_rocio.git
 
 # ejercicio 1
+#consiste en trabajar el concepto de puntos, coordenadas y vectores sobre el plano cartesiano y cómo la programación Orientada a Objetos
+
 
 # ejercicio 2
 #consiste en modificar el texto propuesto utilizando todo lo que sabemos de listas, cadenas, métodos internos, etc., sin modificar directamente el texto
