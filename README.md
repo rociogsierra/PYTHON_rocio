@@ -37,4 +37,8 @@ impares_borrados= []
 for num in orden_de_mayor_a_menor:
 if num % 2 == 0:
 impares_borrados.append(num)
+print(impares_borrados)
 
+print("en esta lista realizaremos una suma de todos los números que quedan:")
+#usamos la función "sum(list) propuesta en el enunciado"
+suma_del_resto= sum
