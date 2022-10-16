@@ -22,12 +22,15 @@ self.y = y
 def __str__(self):
 return "({},{}).format(self.x, self.y)
 
+#añadir un método llamado cuadrante
 
+def
 
 # ejercicio 2
 #consiste en modificar el texto propuesto utilizando todo lo que sabemos de listas, cadenas, métodos internos, etc., sin modificar directamente el texto
 
 texto_original= "un día que el viento soplaba con fuerza#mira como se mueve aquella banderola -dijo un monje#lo que se mueve es el viento -respondió otro monje#ni las banderolas ni el viento, lo que se mueve son vuestras mentes -dijo el maestro"
+
 def modificar_texto_original(texto):
 texto= texto.replace("#","\n")
 oracion= texto.split("\n")
@@ -36,8 +39,10 @@ if lugar==0:
 oracion[lugar]= oracion[lugar].capitalize() + "..."
 else:
 oracion[lugar]= "-" + oracion[lugar].capitalize() + "."
+
 texto = "\n".join(oracion)
 return texto
+
 print(modificar_texto_original(texto_original))
 
 # ejercicio 3
@@ -60,7 +65,9 @@ impares_borrados.append(num)
 print(impares_borrados)
 
 print("en esta lista realizaremos una suma de todos los números que quedan:")
+
 #usamos la función "sum(list)" propuesta en el enunciado
+
 suma_del_resto= sum(impares_borrados)
 print(suma_del_resto)
 
