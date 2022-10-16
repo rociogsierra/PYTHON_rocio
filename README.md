@@ -3,28 +3,7 @@
 https://github.com/rociogsierra/PYTHON_rocio.git
 
 # ejercicio 1
-#consiste en trabajar el concepto de puntos, coordenadas y vectores sobre el plano cartesiano y cómo la programación Orientada a Objetos
-#hay que importar math para hacer la raíz cuadrada
 
-import math
-
-#crear una clase llamada Punto con sus dos coordenadas X e Y:
-#uso "__init__", que es un método especial para una clase de python (inicializa los atributos del objeto que creamos)
-#uso también "self", que hará referencia al nombre del objeto en el que se encuentra escrito
-
-class Punto:
-def __init__(self, x=0, y=0):
-self.x = x
-self.y = y 
-
-#para mostrar objetos, Python indica que hay que agregarle a la clase un método especial, llamado "__str__" que debe devolver una cadena de caracteres con lo que queremos mostrar. Ese método se invoca cada vez que se llama a la función str 
-
-def __str__(self):
-return "({},{}).format(self.x, self.y)
-
-#añadir un método llamado cuadrante
-
-def
 
 # ejercicio 2
 #consiste en modificar el texto propuesto utilizando todo lo que sabemos de listas, cadenas, métodos internos, etc., sin modificar directamente el texto
