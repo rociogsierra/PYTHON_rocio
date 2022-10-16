@@ -32,4 +32,9 @@ print("esta lista está ordenada de mayor a menor:")
 orden_de_mayor_a_menor= sorted(duplicados_borrados, reverse=True)
 print(orden_de_mayor_a_menor)
 
+print("en esta lista hemos borrado los números impares:")
+impares_borrados= []
+for num in orden_de_mayor_a_menor:
+if num % 2 == 0:
+impares_borrados.append(num)
 
