@@ -10,3 +10,8 @@ texto_original= "un día que el viento soplaba con fuerza#mira como se mueve aqu
 def modificar_texto_original(texto):
 texto= texto.replace("#","\n")
 oracion= texto.split("\n")
+for lugar in range(len(oracion)):
+if lugar==0:
+oracion[lugar]= oracion[lugar].capitalize() + "..."
+else:
+oracion[lugar]=
