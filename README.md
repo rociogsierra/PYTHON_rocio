@@ -46,3 +46,10 @@ print(suma_del_resto)
 
 print("aquí añadimos como primer elemento de la lista, la suma realizada:")
 impares_borrados.insert(0, suma_del_resto)
+return impares_borrados
+
+lista_1= [1, 3, 5, 7, 2, 6, 9, 4, 6, 8, 5, 2, 2, 3]
+nueva_lista= modificar(lista1)
+print(nueva_lista[0] == sum(nueva_lista[1:]))
+True
+print(lista1)
