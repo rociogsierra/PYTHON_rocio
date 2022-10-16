@@ -14,4 +14,7 @@ for lugar in range(len(oracion)):
 if lugar==0:
 oracion[lugar]= oracion[lugar].capitalize() + "..."
 else:
-oracion[lugar]=
+oracion[lugar]= "-" + oracion[lugar].capitalize() + "."
+texto = "\n".join(oracion)
+return texto
+
